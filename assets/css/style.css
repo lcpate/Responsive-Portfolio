@@ -274,21 +274,23 @@
 
 @media screen and (max-width: 640px){
 	.body{
-		width:645px;
-		height:900px;
+		width:100%;
+		
 	}
 
-	.topbar{
-		width:640px;
-	}
+	/*.topbar{
+		width:100%;
+		position: static;
+	}*/
 
 	#header{
-		width:640px;
+		width:100%;
 		font-size:20px;
 		padding:15px;
 		right:0;
 		margin-top:0px;
 		text-align: center;
+		/*position: static;*/
 
 	}
 
@@ -301,7 +303,7 @@
 
 	.aboutme{
 		width:auto;
-		height: 75%;
+		height: 80%;
 		margin-left:auto;
 	}
 
@@ -317,18 +319,59 @@
 		height: 300px;
 		float:left;
 		display: block;
+		align-content: center;
+	}
+
+	.container{
+		width: auto;
+		margin-left: 5px;
+
+
+	}
+
+	#name,
+	#email,
+	#message{
+		margin-left: 10px;
+	}
+
+	#emailtext,
+	#messagetext,
+	#nametext,
+	#contacttext{
+		margin-left: 10px;
+
+	}
+
+	.portfolio{
+		width: 98%;
+	}
+
+	.leftpics{
+		
+		float:left;
+		/*position: relative;*/
+		/*margin-left: 30px;*/
+	}
+
+	.rightpics{
+		
+		float:left;
+		/*position: relative;*/
+		margin-left: 30px;
+	
 	}
 
 	.logos{
 		margin-left:2px;
 		margin-bottom:0px;
-		margin-top:600px;
+		margin-top:160%;
 		width: auto;
 
 	}
 
 	.footer{
-		width:640px;
+		width:100%;
 		height:max-content;
 		float:left;
 		text-align:center;
@@ -341,11 +384,4 @@
 }
 
 
-
-
-
-
-
-
-}
 
