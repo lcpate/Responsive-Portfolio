@@ -354,7 +354,7 @@
 	.leftpics{
 		
 		float:left;
-		margin-left: 30px;
+		margin-left: 70px;
 		
 		/*position: relative;*/
 		/*margin-left: 30px;*/
@@ -364,7 +364,7 @@
 		
 		float:right;
 		/*position: relative;*/
-		margin-right: 30px;
+		margin-right: 70px;
 	
 	}
 
@@ -402,17 +402,19 @@
 		width:100%;
 		font-size:20px;
 		padding:15px;
-		right:0;
+		/*right:0;*/
 		margin-top:0px;
+		margin-left: 0px;
 		text-align: center;
-		/*position: static;*/
+		position: static;
 
 	}
 
 	.navigation{
-		float:left;
-		margin-top:75px;
-		text-align: center;
+		float:right;
+
+		margin-top:20px;
+		/*text-align: center;*/
 
 	}
 
@@ -434,7 +436,7 @@
 		height: 300px;
 		float:left;
 		display: block;
-		align-content: center;
+		
 	}
 
 	.container{
@@ -460,8 +462,8 @@
 
 	.portfolio{
 		width: 80%;
-		margin-left: 2px;
-		height: 130%;
+		margin-left: 40px;
+		height: 135%;
 	}
 
 	.leftpics{
@@ -469,14 +471,14 @@
 		float:left;
 		/*width: auto;*/
 		/*position: relative;*/
-		/*margin-left: 30px;*/
+		margin-left: 60px;
 	}
 
 	.rightpics{
 		
 		float:left;
 		/*position: relative;*/
-		margin-right: 30px;
+		margin-left: 60px;
 	
 	}
 
