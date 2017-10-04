@@ -1,5 +1,3 @@
-
-
 .body{
 	background-image: url("../images/seigaiha.png");
 	margin:114px 450px 0px 1px;
@@ -198,7 +196,7 @@
 .portfolio{
 	overflow: auto;
 	width: 50%;
-	height: 95%;
+	height: 82%;
 	display: inline-block;
 	padding:5px;
 	margin-left: 50px;
@@ -272,7 +270,7 @@
 }
 
 
-/*BREAKLIUHFSDFKJH:EPIFHUIDFJHSLKDJFBLKSJDBLKJDBLSKJDBFLSKDJF*/
+
 
 @media screen and (max-width: 980px){
 	.body{
@@ -280,14 +278,8 @@
 		
 	}
 
-/* 	.topbar{
-		width:100%;
-		position: static;
-	} */
-
 	#header{
 		width:20%;
-/* 		font-size:20px; */
 		padding:36px;
 		margin-top:0px;
 		text-align: center;
@@ -312,10 +304,8 @@
 	}
 
 	#text{
-		/*float:left;*/
 		margin-right:2px;
 		width:auto;
-		/*display: block;*/
 	}
 
 	#profilepic{
@@ -327,15 +317,12 @@
 	.container{
 		width: 40%;
 		margin-left: 50px;
-
-
 	}
 
 	#name,
 	#email,
 	#message{
 		margin-left: 15px;
-		/*width:570px;*/
 	}
 
 	#emailtext,
@@ -356,24 +343,17 @@
 		
 		float:left;
 		margin-left: 90px;
-		
-		/*position: relative;*/
-		/*margin-left: 30px;*/
 	}
 
 	.rightpics{
 		
 		float:left;
-		/*position: relative;*/
 		margin-left: 90px;
 	
 	}
 
 	.logos{
 		margin-left:500px;
-		/*margin-bottom:0px;*/
-		/*margin-top:30%;*/
-		/*width: 30%;*/
 
 	}
 
@@ -389,33 +369,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (max-width: 768px){
 	.body{
 		width:100%;
@@ -423,14 +376,9 @@
 		
 	}
 
-/* 	.topbar{
-		width:100%;
-		position: static;
-	} */
-
 	#header{
 		width:30%;
-/* 		font-size:20px; */
+
 		padding:36px;
 		margin-top:0px;
 		text-align: center;
@@ -454,7 +402,7 @@
 	}
 
 	#text{
-/* 		float:left; */
+
 		margin-left:auto;
 		width:auto;
 		display: block;
@@ -491,22 +439,21 @@
 	.portfolio{
 		width: 80%;
 		margin-left: 65px;
-		height: 90%;
+		height: 82%;
 	}
 
 	.leftpics{
 		
 		float:left;
 		margin-left: 70px;
-		
-		/*position: relative;*/
-		/*margin-left: 30px;*/
+		position: relative;
+		margin-left: 30px;
 	}
 
 	.rightpics{
 		
 		float:right;
-		/*position: relative;*/
+		position: relative;
 		margin-right: 70px;
 	
 	}
@@ -514,7 +461,7 @@
 	.logos{
 		margin-left:2px;
 		margin-bottom:0px;
-		margin-top:90%;
+		margin-top:85%;
 		width: auto;
 
 	}
@@ -536,28 +483,25 @@
 		
 	}
 
-	/*.topbar{
-		width:100%;
-		position: static;
-	}*/
+
 
 	#header{
 		width:100%;
 		font-size:20px;
 		padding:15px;
-		/*right:0;*/
+		right:0;
 		margin-top:0px;
 		margin-left: 0px;
 		text-align: center;
 		position: static;
+		/*wasn't able to figure out how to make the header go all the way to the left*/
 
 	}
 
 	.navigation{
 		float:right;
-
 		margin-top:20px;
-		/*text-align: center;*/
+		
 
 	}
 
@@ -575,7 +519,7 @@
 	}
 
 	#profilepic{
-		width: 50%;
+		width: 40%;
 		height: 300px;
 		float:left;
 		display: block;
@@ -606,21 +550,18 @@
 	.portfolio{
 		width: 80%;
 		margin-left: 40px;
-		height: 135%;
+		height: auto;
 	}
 
 	.leftpics{
 		
 		float:left;
-		/*width: auto;*/
-		/*position: relative;*/
 		margin-left: 60px;
 	}
 
 	.rightpics{
 		
 		float:left;
-		/*position: relative;*/
 		margin-left: 60px;
 	
 	}
@@ -642,6 +583,14 @@
 
 
 }
+
+
+
+
+
+
+
+
 
 
 
